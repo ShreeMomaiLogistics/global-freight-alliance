@@ -18,7 +18,6 @@ export default function About() {
           </p>
         </div>
       </div>
-
       <div className="container mx-auto px-4 md:px-8">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center mb-24">
           <div className="relative">
@@ -64,9 +63,7 @@ export default function About() {
                   Parent Company
                 </div>
                 <h3 className="text-2xl font-bold mb-4 mt-2">Shree Momai Logistics</h3>
-                <p className="text-slate-400 text-sm leading-relaxed">
-                  The complete logistics solutions provider handling Air Freight, Road Transport, Customs Clearance, and Warehousing operations globally.
-                </p>
+                <p className="text-slate-400 text-sm leading-relaxed">The complete logistics solutions provider handling Logistics, Air Freight, Road Transport, and Warehousing operations globally.</p>
               </div>
 
               <div className="bg-blue-900/40 p-8 rounded-2xl border border-blue-500/30 relative">

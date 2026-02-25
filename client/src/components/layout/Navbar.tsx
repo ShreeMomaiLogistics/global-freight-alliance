@@ -27,7 +27,6 @@ export default function Navbar() {
           <span>Global Reach, Local Expertise</span>
         </div>
       </div>
-
       {/* Main Nav */}
       <div className="container mx-auto px-4 md:px-8 h-20 flex items-center justify-between">
         <Link href="/">
@@ -36,9 +35,7 @@ export default function Navbar() {
               <Ship className="w-6 h-6" />
             </div>
             <div>
-              <h1 className="text-xl md:text-2xl font-bold tracking-tight text-primary leading-none">
-                SHREE MOMAI
-              </h1>
+              <h1 className="text-xl md:text-2xl font-bold tracking-tight text-primary leading-none">SHREE MOMAI LOGISTICS</h1>
               <p className="text-[10px] md:text-xs text-muted-foreground uppercase tracking-widest font-semibold leading-none mt-1">
                 Logistics Group
               </p>
@@ -51,9 +48,7 @@ export default function Navbar() {
           {navLinks.map((link) => (
             <Link key={link.href} href={link.href}>
               <span
-                className={`text-sm font-semibold tracking-wide transition-colors cursor-pointer hover:text-primary ${
-                  location === link.href ? "text-primary" : "text-slate-600"
-                }`}
+                className="font-semibold tracking-wide transition-colors cursor-pointer hover:text-primary text-slate-600 text-[12px]"
               >
                 {link.name}
               </span>
@@ -72,7 +67,6 @@ export default function Navbar() {
           {isOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
         </button>
       </div>
-
       {/* Mobile Nav */}
       {isOpen && (
         <div className="lg:hidden absolute top-full left-0 w-full bg-white border-b shadow-lg py-4 px-4 flex flex-col space-y-4">

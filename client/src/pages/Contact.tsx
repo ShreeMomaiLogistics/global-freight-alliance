@@ -67,7 +67,7 @@ export default function Contact() {
                   <div>
                     <p className="font-semibold text-slate-900 mb-1">Email</p>
                     <p className="text-primary font-medium text-[13px]">info@shreemomailogistics.in</p>
-                    <p className="text-primary font-medium text-[13px]">info@serenesea.in</p>
+                    <p className="text-primary text-sm font-medium">info@serenesea.in</p>
                   </div>
                 </li>
 

@@ -20,7 +20,7 @@ export default function Navbar() {
       {/* Top Bar */}
       <div className="bg-primary text-primary-foreground py-2 px-4 md:px-8 hidden md:flex justify-between items-center text-sm font-medium">
         <div className="flex items-center space-x-6">
-          <span className="flex items-center gap-2"><Phone className="w-4 h-4" /> +1 (800) 123-4567</span>
+          <span className="flex items-center gap-2"><Phone className="w-4 h-4" /> +91 8980888809</span>
           <span className="flex items-center gap-2"><Mail className="w-4 h-4" /> info@shreemomailogistics.com</span>
         </div>
         <div className="flex items-center space-x-4">

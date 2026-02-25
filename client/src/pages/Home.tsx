@@ -54,7 +54,6 @@ export default function Home() {
           </div>
         </div>
       </section>
-
       {/* Services Grid Preview */}
       <section className="py-20 bg-white">
         <div className="container mx-auto px-4 md:px-8">
@@ -89,7 +88,6 @@ export default function Home() {
           </div>
         </div>
       </section>
-
       {/* Sister Company Highlight Section */}
       <section className="py-24 bg-slate-900 relative overflow-hidden">
         <div className="absolute top-0 right-0 w-1/2 h-full opacity-10 pointer-events-none">
@@ -100,7 +98,7 @@ export default function Home() {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
             <div>
               <div className="inline-block px-4 py-1.5 mb-6 rounded-full bg-blue-500/20 border border-blue-500/30">
-                <span className="text-blue-300 font-semibold tracking-wide text-sm uppercase">Specialized Division</span>
+                <span className="text-blue-300 font-semibold tracking-wide text-sm uppercase">a Group company of shree momai logistics</span>
               </div>
               <h2 className="text-4xl md:text-5xl font-bold text-white mb-6 leading-tight">
                 Serene Sea Shipping
@@ -147,7 +145,6 @@ export default function Home() {
           </div>
         </div>
       </section>
-
       {/* Credibility Elements */}
       <section className="py-20 bg-slate-50">
         <div className="container mx-auto px-4 md:px-8">

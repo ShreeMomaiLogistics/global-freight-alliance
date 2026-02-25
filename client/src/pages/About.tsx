@@ -63,7 +63,7 @@ export default function About() {
                   Parent Company
                 </div>
                 <h3 className="text-2xl font-bold mb-4 mt-2">Shree Momai Logistics</h3>
-                <p className="text-slate-400 text-sm leading-relaxed">The complete logistics solutions provider handling Logistics, Air Freight, Road Transport, and Warehousing operations globally.</p>
+                <p className="text-slate-400 text-sm leading-relaxed">The complete logistics solutions provider handling Air Freight, Road Transport, and Warehousing operations globally.</p>
               </div>
 
               <div className="bg-blue-900/40 p-8 rounded-2xl border border-blue-500/30 relative">

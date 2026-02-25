@@ -45,7 +45,7 @@ export default function Contact() {
                   </div>
                   <div>
                     <p className="font-semibold text-slate-900 mb-1">Address</p>
-                    <p className="text-slate-600 text-sm leading-relaxed">123 Logistics Avenue,<br/>Global Trade District,<br/>New York, NY 10001, USA</p>
+                    <p className="text-slate-600 text-sm leading-relaxed">Office No – 113, 1st.Floor, Plot No. 12, Golden Height,B/h. B.M Petrol Pump, Sector 8,<br/>Gandhidham, Gujarat 370201</p>
                   </div>
                 </li>
                 

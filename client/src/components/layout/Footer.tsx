@@ -13,7 +13,7 @@ export default function Footer() {
                 <Ship className="w-6 h-6" />
               </div>
               <div>
-                <h2 className="text-xl font-bold text-white leading-none">SHREE MOMAI</h2>
+                <h2 className="text-xl font-bold text-white leading-none">SHREE MOMAI LOGISTICS</h2>
                 <p className="text-[10px] text-slate-400 uppercase tracking-widest font-semibold leading-none mt-1">Logistics Group</p>
               </div>
             </div>

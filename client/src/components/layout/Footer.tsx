@@ -55,15 +55,15 @@ export default function Footer() {
             <ul className="space-y-4 text-sm text-slate-400">
               <li className="flex gap-3">
                 <MapPin className="w-5 h-5 text-primary shrink-0" />
-                <span>123 Logistics Avenue,<br />Global Trade District, NY 10001</span>
+                <span>Office No – 113, 1st.Floor, Plot No. 12, Golden Height,B/h. B.M Petrol Pump, Sector 8,<br />Gandhidham, Gujarat 370201</span>
               </li>
               <li className="flex gap-3 items-center">
                 <Phone className="w-5 h-5 text-primary shrink-0" />
-                <span>+1 (800) 123-4567</span>
+                <span>+91 8980888809</span>
               </li>
               <li className="flex gap-3 items-center">
                 <Mail className="w-5 h-5 text-primary shrink-0" />
-                <span>info@shreemomailogistics.com</span>
+                <span>info@shreemomailogistics.in</span>
               </li>
             </ul>
           </div>

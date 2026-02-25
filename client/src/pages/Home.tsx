@@ -150,7 +150,7 @@ export default function Home() {
         <div className="container mx-auto px-4 md:px-8">
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8 divide-x divide-slate-200">
             {[
-              { num: "25+", label: "Years Experience" },
+              { num: "20+", label: "Years Experience" },
               { num: "150+", label: "Global Agents" },
               { num: "10k+", label: "Shipments Annually" },
               { num: "24/7", label: "Customer Support" }

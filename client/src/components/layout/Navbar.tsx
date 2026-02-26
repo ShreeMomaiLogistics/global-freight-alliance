@@ -35,7 +35,7 @@ export default function Navbar() {
               <Ship className="w-6 h-6" />
             </div>
             <div>
-              <h1 className="text-xl md:text-2xl font-bold tracking-tight text-primary leading-none">SHREE MOMAI LOGISTICS</h1>
+              <h1 className="md:text-2xl font-bold tracking-tight text-primary text-[20px]">SHREE MOMAI LOGISTICS</h1>
               <p className="text-[10px] md:text-xs text-muted-foreground uppercase tracking-widest font-semibold leading-none mt-1">
                 Logistics Group
               </p>

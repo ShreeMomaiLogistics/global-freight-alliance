@@ -53,7 +53,7 @@ export default function SereneSea() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-12">
             {[
               { icon: Waves, title: "FCL & LCL Services", desc: "Flexible container solutions tailored to your cargo volume, ensuring cost efficiency." },
-              { icon: Globe, title: "Global Port Network", desc: "Direct connections to major ports across Asia, Europe, latin America, and Africa." },
+              { icon: Globe, title: "Global Port Network", desc: "Direct connections to major ports across Asia, Europe, latin Amer, and Africa." },
               { icon: Compass, title: "Route Optimization", desc: "Strategic planning to balance transit times and freight costs for your business." }
             ].map((feature, i) => (
               <div key={i} className="bg-slate-50 p-8 rounded-2xl border border-slate-100 hover:border-blue-200 transition-colors">

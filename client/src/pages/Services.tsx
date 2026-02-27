@@ -1,11 +1,12 @@
+
 import { Plane, Ship, Truck, ShieldCheck, Package, ArrowRight } from "lucide-react";
 import { Link } from "wouter";
-import { Button } from "@/components/ui/button";
-import airImg from "@/assets/images/service-air.jpg";
-import oceanImg from "@/assets/images/service-ocean.jpg";
-import roadImg from "@/assets/images/service-road.jpg";
-import customsImg from "@/assets/images/service-customs.jpg";
-import warehouseImg from "@/assets/images/service-warehouse.jpg";
+import { Button } from "../components/ui/button";
+import airImg from "../assets/images/service-air.jpg";
+import oceanImg from "../assets/images/service-ocean.jpg";
+import roadImg from "../assets/images/service-road.jpg";
+import customsImg from "../assets/images/service-customs.jpg";
+import warehouseImg from "../assets/images/service-warehouse.jpg";
 
 export default function Services() {
   const services = [

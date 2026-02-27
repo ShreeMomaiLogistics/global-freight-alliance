@@ -56,7 +56,7 @@ export default function Contact() {
                   <div>
                     <p className="font-semibold text-slate-900 mb-1">Phone</p>
                     <p className="text-slate-600 text-sm">+91 8980888809</p>
-                    <p className="text-slate-600 text-sm">+1 (212) 555-0198</p>
+                    <p className="text-slate-600 text-sm"></p>
                   </div>
                 </li>
 
@@ -66,8 +66,8 @@ export default function Contact() {
                   </div>
                   <div>
                     <p className="font-semibold text-slate-900 mb-1">Email</p>
-                    <p className="text-primary font-medium text-[13px]">info@shreemomailogistics.com</p>
-                    <p className="text-primary text-sm font-medium">info@serenesea.in</p>
+                    <p className="text-primary font-medium text-[12px]">info@shreemomailogistics.com</p>
+                    <p className="text-primary font-medium text-[12px]">info@serenesea.in</p>
                   </div>
                 </li>
 
@@ -77,8 +77,8 @@ export default function Contact() {
                   </div>
                   <div>
                     <p className="font-semibold text-slate-900 mb-1">Operating Hours</p>
-                    <p className="text-slate-600 text-sm">Mon - Fri: 8:00 AM - 6:00 PM</p>
-                    <p className="text-slate-600 text-sm">24/7 Operations Center Available</p>
+                    <p className="text-slate-600 text-sm">Mon - Sat: 9:00 AM - 6:00 PM</p>
+                    <p className="text-slate-600 text-sm"></p>
                   </div>
                 </li>
               </ul>

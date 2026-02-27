@@ -28,27 +28,29 @@ export default function Navbar() {
         </div>
       </div>
       {/* Main Nav */}
-      <div className="container mx-auto px-4 md:px-8 h-20 flex items-center justify-between">
+      <div className="w-full px-4 md:px-8 h-24 flex items-center justify-between">
         <Link href="/">
-          <div className="flex items-center gap-3 cursor-pointer">
-            <div className="bg-primary text-white p-2 rounded-lg">
-              <Ship className="w-6 h-6" />
-            </div>
+          <div className="flex items-center gap-2 cursor-pointer">
+  <img
+  src="/logo.png"
+  alt="Shree Momai Logistics"
+  className="h-20 w-auto object-contain"
+/>
             <div>
               <h1 className="md:text-2xl font-bold tracking-tight text-primary text-[20px]">SHREE MOMAI LOGISTICS</h1>
               <p className="text-[10px] md:text-xs text-muted-foreground uppercase tracking-widest font-semibold leading-none mt-1">
-                Logistics Group
+                
               </p>
             </div>
           </div>
         </Link>
 
         {/* Desktop Nav */}
-        <nav className="hidden lg:flex items-center space-x-8 text-[15px]">
+        <nav className="hidden lg:flex items-center gap-6 xl:gap-8">
           {navLinks.map((link) => (
             <Link key={link.href} href={link.href}>
               <span
-                className="font-semibold tracking-wide transition-colors cursor-pointer hover:text-primary text-slate-600 text-[12px]"
+                className="font-semibold whitespace-nowrap tracking-wide transition-colors cursor-pointer hover:text-primary text-slate-600 text-sm"
               >
                 {link.name}
               </span>

@@ -61,10 +61,14 @@ export default function Footer() {
                 <Phone className="w-5 h-5 text-primary shrink-0" />
                 <span>+91 8980888809</span>
               </li>
-              <li className="flex gap-3 items-center">
-                <Mail className="w-5 h-5 text-primary shrink-0" />
-                <span>info@shreemomailogistics.com</span>
-              </li>
+              <li className="flex gap-3">
+  <Mail className="w-5 h-5 text-primary shrink-0 mt-1" />
+
+  <div className="flex flex-col">
+    <span>info@shreemomailogistics.com</span>
+    <span>info@serenesea.in</span>
+  </div>
+</li>
             </ul>
           </div>
         </div>

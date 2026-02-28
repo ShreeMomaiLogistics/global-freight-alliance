@@ -28,20 +28,20 @@ export default function Navbar() {
         </div>
       </div>
       {/* Main Nav */}
-      <div className="w-full px-4 md:px-8 h-24 flex items-center justify-between">
+      <div className="w-full px-4 md:px-8 h-14 md:h-20 flex items-center justify-between">
         <Link href="/">
-          <div className="flex items-center gap-2 sm:gap-3 cursor-pointer">
+          <div className="flex items-center gap-3 md:gap-4 cursor-pointer">
   <img
     src="/logo.png"
     alt="Shree Momai Logistics"
-    className="h-10 sm:h-14 lg:h-16 w-auto object-contain"
+    className="h-12 md:h-14 lg:h-16 w-auto object-contain"
   />
 
-  <div className="leading-tight">
-    <h1 className="font-bold tracking-tight text-primary text-sm sm:text-lg lg:text-2xl whitespace-nowrap">
-      SHREE MOMAI LOGISTICS
-    </h1>
-  </div>
+  <div className="hidden sm:block leading-tight">
+  <h1 className="text-sm md:text-lg lg:text-xl font-bold tracking-tight text-primary leading-tight">
+    SHREE MOMAI LOGISTICS
+  </h1>
+</div>
 </div>
         </Link>
 

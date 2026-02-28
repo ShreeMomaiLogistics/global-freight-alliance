@@ -2,6 +2,7 @@ import { Link } from "wouter";
 import { Button } from "@/components/ui/button";
 import { ArrowRight, Plane, Ship, Truck, Package, ShieldCheck, Globe, CheckCircle2 } from "lucide-react";
 import heroImg from "@/assets/images/hero-logistics.jpg";
+import sereneSeaImg from "@/assets/images/serene-sea.jpg";
 import { motion } from "framer-motion";
 
 export default function Home() {
@@ -126,7 +127,7 @@ export default function Home() {
             <div className="relative">
               <div className="absolute inset-0 bg-blue-500 rounded-3xl translate-x-4 translate-y-4 opacity-20"></div>
               <img 
-                src="/src/assets/images/serene-sea.jpg" 
+                src={sereneSeaImg} 
                 alt="Serene Sea Shipping Containers" 
                 className="relative z-10 rounded-3xl shadow-2xl w-full object-cover aspect-[4/3] border-4 border-slate-800"
               />
